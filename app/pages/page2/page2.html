@@ -12,4 +12,7 @@
   <!-- demonstrating #108 -->
   <ion-range [(ngModel)]="rangeValue"></ion-range>
   <ion-input [(ngModel)]="inputValue" type="text"></ion-input>
+  <div [formGroup]="form">
+    <signature-field formControlName="signatureField"></signature-field>
+  </div>
 </ion-content>
